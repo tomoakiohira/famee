@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1"
+    android:background="#0000">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Famee"
+        android:textSize="90sp"
+        android:gravity="center"
+        android:layout_weight="0.15"
+        android:textColor="@color/colorPrimaryDark"
+
+    />
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:text="出会いをより深く"
+        android:gravity="top|center"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:text="出会いを記録する"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:onClick="記録する"
+        android:id="@+id/button"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="0dp"
+        android:text="出会いを振り返る"
+        android:textStyle="bold"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="60dp"
+        android:textSize="40sp"
+        android:onClick="振り返る"
+        android:id="@+id/button2"
+        android:layout_weight="0.15" />
+
+
+
+</LinearLayout>

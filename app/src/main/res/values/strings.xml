@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fameee</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">出会いを振り返る</string>
+    <string name="title_activity_photopage">Photopage</string>
+    <string name="title_activity_famee3">famee3</string>
+    <string name="famee1" />
+</resources>
